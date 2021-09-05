@@ -5,13 +5,173 @@ engine: ejs
 current: index
 ---
 
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
-
-<button type="button" class="btn btn-link">Link</button>
+<div class="container-fluid">
+  <div class="row">
+    <div class="bg-light vh-100 fw-bold d-flex flex-column col-2 p-4">
+        <img class="mb-4" width="151" height="40" src="https://hexschool.github.io/webLayoutTraining1st/week5/logo-ANSWER.svg" alt="logo-ANSWER">
+        <ul class="list-unstyled mb-auto">
+          <li class="d-flex align-items-center">
+            <i class="bi bi-bar-chart-fill fs-4"></i>
+            <div class="m-3">Dashboard</div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="bi bi-patch-question-fill fs-4"></i>
+            <div class="m-3">Question</div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="bi bi-briefcase-fill fs-4 text-success"></i>
+            <div class="m-3 text-success">Assignment</div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="bi bi-play-btn-fill fs-4"></i>
+            <div class="m-3">Course</div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="bi bi-person-fill fs-4"></i>
+            <div class="m-3">Admin</div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="bi bi-gear-fill fs-4"></i>
+            <div class="m-3">Settings</div>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <img class="rounded-circle" width="40" height="40" src="https://hexschool.github.io/webLayoutTraining1st/week5/andychen.jpeg" alt="andychen">
+          <div class="ms-3">
+            <div>Andy Chen</div>
+            <div class="fw-normal">andy0401@mail.com</div>
+          </div>
+        </div>
+    </div>
+    <div class="col-10">
+      <div class="d-flex justify-content-between p-3">
+        <div class="d-flex align-items-center">
+          <div class="fw-bold fs-4">Assignment</div>
+          <div class="ms-4">All Courses</div>
+          <i class="bi bi-arrow-down-short fs-5 ms-3"></i>
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-search"></i>
+          <i class="bi bi-bell-fill ms-4"></i>
+        </div>
+      </div>
+      <div class="p-3">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex align-items-center">
+            <div class="fw-bold">All (4)</div>
+            <i class="bi bi-arrow-down-short fs-5 ms-1"></i>
+          </div>
+          <div class="d-flex align-items-center">
+            <div>2 comments</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <div class="bg-light border p-2">
+              <div class="d-flex justify-content-between">
+                <div>Chapter Assignment 2</div>
+                <div>4 hrs ago</div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="fw-bold">Please check this file…</div>
+                <div class="text-secondary">Emily Wang</div>
+              </div>
+            </div>
+            <div class="border p-2">
+              <div class="d-flex justify-content-between">
+                <div>Chapter Assignment 1</div>
+                <div>12 hrs ago</div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="fw-bold">My Homework</div>
+                <div class="text-secondary">David Xu</div>
+              </div>
+            </div>
+            <div class="border p-2">
+              <div class="d-flex justify-content-between">
+                <div>Final Assignment</div>
+                <div>18 hrs ago</div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="fw-bold">Have a problem with this…</div>
+                <div class="text-secondary">Tony Wei</div>
+              </div>
+            </div>
+            <div class="border p-2">
+              <div class="d-flex justify-content-between">
+                <div>Final Assignment</div>
+                <div>19 hrs ago</div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="fw-bold">Did I do it right?</div>
+                <div class="text-secondary">Christina Lin</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="bg-light border p-3 d-flex justify-content-between align-items-center">
+              <div class="">
+                <div>Chapter Assignment 2 / HTML&CSS</div>
+                <div class="fw-bold">Please check this file for me, thanks!</div>
+              </div>
+              <i class="bi bi-three-dots-vertical fs-4 m-2"></i>
+            </div>
+            <div class="border p-3">
+              <div class="row">
+                <div class="col-1">
+                  <img class="rounded-circle" width="40" height="40" src="https://hexschool.github.io/webLayoutTraining1st/week5/emilywang.jpeg" alt="emilywang">
+                </div>
+                <div class="col-11">
+                  <div class="fw-bold">Emily Wang</div>
+                  <div class="text-secondary">10:38 AM (4 hours ago)</div>
+                  <div class="mt-2">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="text-success bg-light">div</span> is bigger than the height of the <span class="text-success bg-light">img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</div>
+                  <div class="bg-light w-25 border d-flex justify-content-center align-items-center px-1 py-2 mt-2">
+                    <i class="bi bi-download fs-4"></i>
+                    <div class="ms-3">HW-2-David.zip</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="row mt-3">
+                  <div class="col-1 pt-3">
+                    <img class="rounded-circle" width="40" height="40" src="https://hexschool.github.io/webLayoutTraining1st/week5/andychen.jpeg" alt="andychen">
+                  </div>
+                  <div class="col-11 border-top pt-3">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <div class="fw-bold">Andy Chen (You)</div>
+                        <div class="text-secondary">13:24 AM (1 hours ago)</div>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-pencil-fill ms-4"></i>
+                      </div>
+                    </div>                    
+                    <div class="mt-2">
+                      <div>Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</div>
+                      <br>
+                      <div>You can:</div>
+                      <br>
+                      <div>• adjust the <span class="text-success bg-light">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="text-success bg-light">middle</span> ) or</div>
+                      <div>• change the <span class="text-success bg-light">display</span> so it isn’t inline.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-3">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-chevron-left"></i>
+                <i class="bi bi-chevron-right ms-4"></i>
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="fw-bold border border-success text-success px-5 py-2">Mark as read</div>
+                <div class="fw-bold text-white bg-success ms-3 px-5 py-2">Reply</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
